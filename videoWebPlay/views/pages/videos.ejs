@@ -3,9 +3,11 @@
   <head>
   </head>
   <body>
+  <h1>Lista de películas</h1>
     <%results.forEach(function(item, index){%>
-        <tr>
-            <td><%= item.name%></td>
+        <ul>
+            <li><%= item.name%></li>
             <%});%>
+        </ul>
   </body>
 </html>
