@@ -4,9 +4,9 @@
   </head>
   <body>
   <h1>Lista de películas</h1>
-    <%results.forEach(function(item, index){%>
         <ul>
-            <li><%= item.name%></li>
+    <%results.forEach(function(item, index){%>
+            <li><%= item.name%> con link <%= item.link%></li>
             <%});%>
         </ul>
   </body>
