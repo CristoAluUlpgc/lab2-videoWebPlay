@@ -6,7 +6,7 @@
   <h1>Lista de películas</h1>
         <ul>
     <%results.forEach(function(item, index){%>
-            <li><%= item.name%> con link <%= item.link%></li>
+            <li><a href=<%= item.link%>><%= item.name%></a></li>
             <%});%>
         </ul>
   </body>
